@@ -1,0 +1,7 @@
+include ':androidlisteners'
+include ':androidprojects:listeners'
+include ':androidprojects'
+include ':viewgroups:layout_homework'
+include ':viewgroups'
+include ':app'
+rootProject.name = "Hello world"

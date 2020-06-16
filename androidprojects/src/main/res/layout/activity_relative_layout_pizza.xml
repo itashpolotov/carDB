@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayoutPizza">
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50sp"
+                android:text="Пицца охотичая"
+
+                android:paddingTop="25dp"/>
+
+            <ImageView
+                android:id="@+id/ohotnichya"
+               android:layout_marginLeft="50dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ohotnichya"
+                android:layout_below="@+id/textView8"/>
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="75sp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="320 сом"
+                android:layout_below="@+id/ohotnichya"/>
+
+            <Button
+                android:layout_marginLeft="50dp"
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="В КОРЗИНУ"
+                android:layout_below="@+id/price1"
+                />
+
+
+
+            <TextView
+                android:paddingTop="25dp"
+                android:paddingRight="50dp"
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Пицца маргарита"
+                android:textAlignment="center"
+                android:layout_alignParentRight="true"
+
+                />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/margarita"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"/>
+
+
+            <TextView
+                android:id="@+id/price2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="290 сом"
+                android:layout_alignParentRight="true"
+                android:paddingRight="75sp"
+                android:layout_below="@+id/imageView"/>
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="В КОРЗИНУ"
+                android:layout_below="@+id/price2"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="50dp"/>
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/breakfirst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Завтрак"
+                android:paddingTop="50sp"
+                android:paddingLeft="65sp"
+                android:layout_below="@+id/button1"
+                android:textAllCaps="true" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+               android:layout_below="@+id/breakfirst"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/breakfirst" />
+
+            <TextView
+                android:id="@+id/price3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 сом"
+                android:layout_below="@+id/imageView2"
+                android:paddingLeft="75sp"/>
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="В КОРЗИНУ"
+                android:layout_below="@+id/price3"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1" />
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="50sp"
+                android:paddingRight="65sp"
+                android:text="Сэндвич"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/sandwich"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="120 сом"
+                android:textAlignment="center" />
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="В КОРЗИНУ"
+
+                android:layout_weight="1" />
+
+
+
+
+
+</RelativeLayout>
