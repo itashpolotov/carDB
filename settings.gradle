@@ -1,3 +1,5 @@
+include ':musicshop'
+include ':menuoptions'
 include ':androidlisteners'
 include ':androidprojects:listeners'
 include ':androidprojects'
