@@ -1,3 +1,8 @@
+include ':tictactoe'
+include ':androidvectors'
+include ':androidaudio'
+include ':imagevideoanimations'
+include ':androidvideo'
 include ':musicshop'
 include ':menuoptions'
 include ':androidlisteners'
